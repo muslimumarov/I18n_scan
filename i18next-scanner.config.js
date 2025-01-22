@@ -2,7 +2,7 @@ module.exports = {
   input: [
     'src/**/*.{js,jsx,ts,tsx}', // Tarjima kalitlari qayerdan izlanadi
   ],
-  output: './public/locales/$LOCALE/$NAMESPACE.json', // JSON tarjima fayllari uchun joy
+  output: './public/locales/{{lng}}/{{ns}}.json', // JSON tarjima fayllari uchun joy
   options: {
     func: {
       list: ['t'], // Tarjima funksiyasining nomi
